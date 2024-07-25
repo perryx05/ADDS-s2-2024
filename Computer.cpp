@@ -2,10 +2,10 @@
 
 Computer::Computer() {
     name = "Computer";
-    this -> move = 'R';
+    
 }
 char Computer :: makeMove() {
-   
+   this -> move = 'R';
     return move;
 }
 string Computer :: getName() {

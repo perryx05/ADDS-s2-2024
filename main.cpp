@@ -21,10 +21,11 @@ int main(){
         players[i] = new Human(name);
     }
     for (int i = 0; i<size ; i++){
-        if (ref -> refGame(players[i], p2) == nullptr){
+        Player *winners = ref -> refGame(players[i], p2);
+        if (winners == nullptr){
             cout << "It's a Tie." << endl;}
         else {
-            cout << ref-> refGame(players[i], p2) -> getName()<<" Wins." << endl;
+            cout << winners -> getName()<<" Wins." << endl;
         }
 
 

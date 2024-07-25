@@ -2,18 +2,18 @@
 
 Human::Human() {
     this -> name = "Human";
-    cout << "Enter move: ";
-    cin >> move;
+    
 }
 Human::Human(string name) {
     this -> name = name;
+}
+
+char Human :: makeMove() {
     cout << "Enter move: ";
     cin >> move;
-}
-char Human :: makeMove() {
-    
     return move;
 }
+
 string Human :: getName() {
     return name;
 }
