@@ -1,6 +1,5 @@
 #include "Finder.h"
 
-#include <iostream>
 
 int main (){
     Finder f;
