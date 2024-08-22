@@ -1,9 +1,10 @@
 #include "Reverser.h"
 
 int Reverser::reverseDigit(int value ){
-    if (isnumber(value)){
+    if (value <0) {
         return -1;
     }
+    else
     if (value <10){
         return value;
     }

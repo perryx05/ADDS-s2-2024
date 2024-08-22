@@ -1,7 +1,7 @@
 #ifndef REVERSER_H
 #define REVERSER_H
 #include <iostream>
-#include <math.h>
+#include <cmath>
 #include <string>
 
 class Reverser {
