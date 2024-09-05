@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
-#include "QuickSort.h"
+#include "MergeSort.h"
 #include "RecursiveBinarySearch.h"
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
         list.push_back(number);
     }
 
-    QuickSort quickSort;
+    MergeSort quickSort;
     list = quickSort.sort(list);
 
     RecursiveBinarySearch recursiveBinarySearch;
